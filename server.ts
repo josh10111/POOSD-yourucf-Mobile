@@ -5,7 +5,7 @@ import jwt from 'jsonwebtoken';
 import cors from 'cors';
 
 const app = express();
-const port = 5000;
+const port = 5001;
 const secretKey = 'your_secret_key'; // Replace with a secure secret key or use an environment variable
 
 app.use(cors());
